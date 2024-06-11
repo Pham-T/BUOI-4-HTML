@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <title>Tạo Layout</title>
+<style>
+#logo, #banner {
+    display:flex
+    width: 100%;
+    overflow: auto;
+    }
+
+.logo {
+  width: 20%;
+  padding: 30px;
+  background-color:green;
+  float: left;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 80%;
+  padding: 30px;
+  background-color:orange;
+  float: right;
+  box-sizing: border-box;
+}
+
+.head-link {
+  width: 100%;
+  background-color: blue;
+  padding: 30px;
+}
+#left, #content, #right {
+    display:flex
+    width: 100%;
+    overflow: 15%, 70%, 15%;
+    }
+.left {
+  width: 15%;
+  background-color: antiquewhite;
+  padding: 100px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 70%;
+  background-color: aliceblue;
+  padding: 100px;
+  float: center;
+  box-sizing: border-box;
+}
+
+.right {
+  width:15%;
+  background-color: red;
+  padding: 100px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.footer {
+  width:100%
+  padding: 30px;
+  background-color: brown;
+}
+
+</style>
+<body>
+    <div>
+        <div class="logo">logo</div>
+        <div class="banner">banner</div>
+    </div>
+    <div>
+        <div class="head-link">head-link</div>
+    </div>
+    <div>
+        <div class="left">left</div>
+        <div class="content">content</div>
+        <div class="right">right</div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>
